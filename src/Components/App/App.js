@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./Header";
-import TinderCards from "./TinderCards";
-import SwipeButtons from "./SwipeButtons";
-import Chats from "./Chats";
-import ChatScreen from "./ChatScreen.js";
+import Header from "../Header/Header";
+import TinderCards from "../TinderCards/TinderCards";
+import SwipeButtons from "../SwipeButtons/SwipeButtons";
+import Chats from "../Chats/Chats";
+import ChatScreen from "../ChatScreen/ChatScreen";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
