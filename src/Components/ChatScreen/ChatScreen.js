@@ -26,7 +26,7 @@ const ChatScreen = () => {
         message.name ? (
           <>
             <p className="chatScreen__timestamp">
-              YOU MATCHED WITH {message.name} ON 10/10/10
+              YOU MATCHED WITH {message.name.toUpperCase()} ON 10/10/10
             </p>
             <div className="chatScreen__message">
               <Avatar
